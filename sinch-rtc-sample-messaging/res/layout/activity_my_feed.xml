@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/frame"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <WebView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/webView"
+        android:layout_gravity="center" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notifications"
+        android:id="@+id/button4"
+        android:layout_gravity="left|top" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:id="@+id/button5"
+        android:layout_gravity="right|top" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="70dp" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:scaleType="fitCenter"
+        android:id="@+id/imageButton"
+        android:layout_gravity="left|bottom"
+        android:src="@drawable/redx" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:scaleType="fitCenter"
+        android:id="@+id/imageButton2"
+        android:layout_gravity="right|bottom"
+        android:src="@drawable/check" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="fitCenter"
+        android:id="@+id/imageButton3"
+        android:layout_gravity="center_horizontal|bottom"
+        android:src="@drawable/info"
+        android:layout_marginBottom="20dp" />
+
+</FrameLayout>

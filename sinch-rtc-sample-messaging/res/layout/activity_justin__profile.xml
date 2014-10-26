@@ -1,0 +1,68 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffc9fffb">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Messages"
+        android:id="@+id/button2" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Jam"
+        android:id="@+id/button"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="30dp"
+        android:text="Justin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Santa Clara"
+        android:textSize="20dp"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="19"
+        android:textSize="20dp"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guitar"
+        android:textSize="20dp"
+        android:id="@+id/textView4" />
+
+    <ImageView
+        android:layout_width="138dp"
+        android:layout_height="0dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="right"
+        android:layout_weight="0.33"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:contentDescription="Profile Pic"
+        android:src="@drawable/ic_launcher" />
+
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/webView"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
